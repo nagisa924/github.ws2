@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PonDesign</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="article01.css">
+
+
+</head>
+
+
+
+
+
+<body>
+
+    <header id="sub__header" class="sub__header">
+        <div class="sub__header__bg-container">
+            <div class="header__inner ">
+                <a class="logo" href="/index.html"><img src="./img/logo.svg" alt="logo"></a>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="/news.html">NEWS</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/service.html">SERVICE</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/works.html">WORKS</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/company.html">COMPANY</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/recruit.html">RECRUIT</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="sub__heading__h1">CONTACT
+                <span class="sub__heading__h1--jp">お問い合わせ</span>
+            </h1>
+        </div>
+        <nav>
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-item">
+                    <a href="./index.html">HOME</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="./contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="contact__form" class="contact__form">
+        <p class="contact__text">Webサイトの制作のご依頼やお見積りなど、<br>お気軽にご相談ください。</p>
+        <div class="contact__form-container">
+            <form class="contact__form-list" action="#" method="post">
+                <div class="contact__type">
+                    <p>お問い合わせ種別<span>*必須</span></p>
+                    <div class="radio-list">
+                    <label for="request">
+                        <input type="radio" id="request" name="group1" value="request">
+                        お仕事のご依頼・ご相談</label>
+                    <label for="quote">
+                        <input type="radio" id="quote" name="group1" value="quote">
+                        お見積りのご依頼</label>
+
+                    <label for="recruit">
+                        <input type="radio" id="recruit" name="group1" value="recruit">
+                        採用について</label>
+
+                    <label for="other">
+                        <input type="radio" id="other" name="group1" value="other">
+                        その他</label>
+                    </div>
+                </div>
+                <dl class="contact__item">
+                    <dt><label for="yourname" class="form__item-label">お名前<span>*必須</span></label></dt>
+                    <dd><input type="text" id="yourname" class="form__item-input"></dd>
+
+                    <dt><label for="companyname" class="form__item-label">会社名</label></dt>
+                    <dd><input type="text" id="companyname" class="form__item-input"></dd>
+
+                    <dt><label for="email" class="form__item-label">メールアドレス<span>*必須</span></label></dt>
+                    <dd><input type="text" id="email" class="form__item-input"></dd>
+
+                    <dt><label for="tel" class="form__item-label">お電話番号<span>*（半角数字ハイフンなし）</span></label></dt>
+                    <dd><input type="text" id="tel" class="form__item-input"></dd>
+
+                    <dt><label for="comment" class="form__item-label">お問い合わせ内容<span>*必須</span></label></dt>
+                    <dd><textarea name="comment" id="comment"></textarea></dd>
+                </dl>
+                <p class="contact__question-source">PON DESIGNをどちらでお知りになりましたか？<span>*必須</span></p>
+                <select name="question-source" id="question-source">
+                    <option value="">選択してください</option>
+                    <option>Google/Yahoo検索</option>
+                    <option>SNS</option>
+                    <option>ブログ</option>
+                    <option>友人や知人</option>
+                    <option>その他</option>
+                </select>
+                <div class="send__btn"><a href="#">送信する</a></div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="footer__inner">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a href="/news.html">NEWS</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/service.html">SERVICE</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/works.html">WORKS</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/company.html">COMPANY</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/recruit.html">RECRUIT</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/contact.html">CONTACT</a>
+                </li>
+            </ul>
+            <p class="copyright">&copy;PON DESIGN</p>
+            <div class="footer__totop"><a href="#top"> </a></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
