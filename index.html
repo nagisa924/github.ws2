@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PonDesign</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/article01.css">
+
+ 
+
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="header__bg-container">
+            <div class="header__inner">
+                <a href="/index.html"><img src="./img/logo.svg" alt="logo"></a>
+
+                <button class="header__hamburger hamburger" id="js-hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="header__nav" id="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="./news.html">NEWS</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./service.html">SERVICE</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./works.html">WORKS</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./company.html">COMPANY</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./recruit.html">RECRUIT</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+            </div>
+
+
+            <div class="header__main">
+                <h1 class="heading__h1">WEB DESIGN SPECIALIST</h1>
+                <p class="header__main-description">お客様の夢を叶える<br>Webサイトを制作</p>
+                <div class="contact__btn"><a href="./contact.html">CONTACT</a></div>
+            </div>
+            <div class="scroll-down-container">
+                <span class="scroll-text">SCROLL</span>
+                <div class="scroll-down"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="news" class="news">
+        <div class="news__inner wrapper">
+            <div class="news__heading-container">
+                <h2 class="heading__h2">NEWS
+                    <span class="heading__h2--jp">お知らせ</span>
+                </h2>
+            </div>
+
+            <ul class="news__list">
+                <li class="news__item">
+                    <a href="">
+                        <div class="news__item-supplement">
+                            <time datetime="2030.02.01">2030.02.01</time>
+                            <p class="news__item-label">お知らせ</p>
+                        </div>
+                        <p class="news__item-text">Webデザインニュースサイト「ウェブマガジン」に取材いただきました</p>
+
+                    </a>
+                </li>
+                <li class="news__item">
+                    <a href="">
+                        <div class="news__item-supplement">
+                            <time datetime="2030.01.25">2030.01.25</time>
+                            <p class="news__item-label">制作実績</p>
+                        </div>
+                        <p class="news__item-text">Smoothiesta様のWebサイトを制作いたしました</p>
+
+
+                    </a>
+                </li>
+                <li class="news__item">
+                    <a href="">
+                        <div class="news__item-supplement">
+                            <time datetime="2030.01.20">2030.01.20</time>
+                            <p class="news__item-label">採用</p>
+                        </div>
+                        <p class="news__item-text">Webデザイナーを１名募集中です！</p>
+
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+
+    <section id="service" class="service">
+        <div class="service__inner wrapper">
+            <h2 class="heading__h2">SERVICE
+                <span class="heading__h2--jp">事業内容</span>
+            </h2>
+            <ul class="service__list">
+                <li class="service__item">
+
+                    <img src="/img/service01.jpg" alt="service01">
+                    <h3 class="heading__h3">Webサイト制作</h3>
+                    <p class="service__item-text">新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。</p>
+
+                </li>
+                <li class="service__item">
+
+                    <img src="/img/service02.jpg" alt="service02">
+                    <h3 class="heading__h3">Webサイト運用</h3>
+                    <p class="service__item-text">サイトの更新作業や独自のアクセス解析に基づいたサイト改善のご提案をいたします。</p>
+
+                </li>
+                <li class="service__item">
+
+                    <img src="/img/service03.jpg" alt="service03">
+                    <h3 class="heading__h3">アプリ開発</h3>
+                    <p class="service__item-text">スマートフォンアプリ開発の他、Vue.jsやReactによるWebアプリの開発が可能です。</p>
+
+                </li>
+            </ul>
+            <div class="more__btn"><a href="./service.html">MORE</a></div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <div class="works__inner wrapper">
+            <div class="swiper works__bg_container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img class="works__item" src="/img/works/smoothiesta.jpg"
+                            alt="smoothiesta"></div>
+                    <div class="swiper-slide"> <img class="works__item" src="/img/works/web-conference.jpg"
+                            alt="web-conference"></div>
+                    <div class="swiper-slide"> <img class="works__item" src="/img/works/lamina.jpg" alt="lamina"></div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+
+            <div class="works__container">
+
+                <h2 class="heading__h2">WORKS
+                    <span class="heading__h2--jp">制作実績</span>
+                </h2>
+                <p class="works__text">様々なジャンルのWebサイト制作が可能です。<br>
+                    ご購入やお申込み数の増加などを実現します！</p>
+                <div class="more__btn"><a href="./works.html">MORE</a></div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="company" class="company">
+        <div class="company__inner wrapper">
+            <h2 class="heading__h2">COMPANY
+                <span class="heading__h2--jp">私たちについて</span>
+            </h2>
+            <h3 class="heading__h3"><span class="underline-box">サイトのゴール =</span> <br class="br-sp">
+                <span class="underline-box">夢を叶えること</span>
+            </h3>
+            <p class="company__message">お客様の夢を叶えること。<br>
+                それがWebサイトのゴールであり、<br class="br-sp">
+                私たちが目指すことです。 <br>
+                だからこそちゃんと成果を出すサイトを<br class="br-sp">
+                全力でお作りします。 <br>
+                お客様の笑顔を見たい。<br class="br-sp"> 夢を実現する手助けをさせてください。</p>
+            <div class="more__btn"><a href="./company.html">MORE</a></div>
+        </div>
+    </section>
+
+    <section id="recruit" class="recruit">
+        <div class="recruit__inner wrapper">
+            <div class="recruit__container">
+                <h2 class="heading__h2">RECRUIT
+                    <span class="heading__h2--jp">採用情報</span>
+                </h2>
+                <p class="recruit__text">私たちと一緒に働きませんか？</p>
+                <div class="more__btn"><a href="./recruit.html">MORE</a></div>
+            </div>
+            <img class="recruit__img" src="/img/recruit.jpg" alt="recruit">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact__inner">
+            <h2 class="heading__h2">CONTACT
+                <span class="heading__h2--jp">お問い合わせ</span>
+            </h2>
+            <p class="contact__text">Webサイトの制作のご依頼やお見積りなど、<br>お気軽にご相談ください。</p>
+            <div class="more__btn"><a href="./contact.html">MORE</a></div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="footer__inner">
+            <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                    <a href="/news.html">NEWS</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/service.html">SERVICE</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/works.html">WORKS</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/company.html">COMPANY</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/recruit.html">RECRUIT</a>
+                </li>
+                <li class="footer__nav-item">
+                    <a href="/contact.html">CONTACT</a>
+                </li>
+            </ul>
+            <p class="copyright">&copy;PON DESIGN</p>
+
+
+            <div class="footer__totop"><a href="#top"> </a></div>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <!-- ヘッダーscrollTop -->
+    <script>
+        $(document).ready(function () {
+            var header = $('.header__inner');
+            var scrollThreshold = 50;
+
+            $(window).on('scroll', function () {
+                if ($(this).scrollTop() > scrollThreshold) {
+                    header.addClass('fixed');
+                } else {
+                    header.removeClass('fixed');
+                }
+            });
+        });
+    </script>
+
+    <!-- スクロール -->
+    <script>
+        $(document).ready(function () {
+            const $scrollDownContainer = $('.scroll-down-container');
+            const $toTopButton = $('.footer__totop');
+            const $header = $('header');
+
+            $(window).on('scroll', function () {
+                const headerHeight = $header.outerHeight();
+                const scrollTop = $(window).scrollTop();
+
+                if (scrollTop > 300) {
+                    $scrollDownContainer.fadeOut(500);
+                    $toTopButton.addClass('show');
+                } else {
+                    $scrollDownContainer.fadeIn(500);
+                    $toTopButton.removeClass('show');
+                }
+            });
+
+            $toTopButton.on("click", function (e) {
+                e.preventDefault();
+                $("html, body").animate({ scrollTop: 0 }, 500);
+            });
+        });
+    </script>
+
+    <!-- works スライドショー -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var swiper = new Swiper('.swiper', {
+                loop: true,
+                observer: true,
+                observeParents: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false
+                },
+                speed: 1000,
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                    hideOnClick: false
+                },
+                on: {
+                    slideChange: function () {
+                        swiper.pagination.update();
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- ハンバーガーメニュー -->
+    <script>
+        $(document).ready(function () {
+            $('#js-hamburger').on('click', function () {
+                // console.log("ハンバーガーメニューがクリック");
+                $('#header__nav').toggleClass('open');
+                $('#js-hamburger').toggleClass('open');
+                $('.header__nav-list').toggleClass('open');
+
+                // console.log("ナビゲーションのクラス:", $("#header__nav").attr("class"));
+                // console.log("ハンバーガーのクラス:", $("#js-hamburger").attr("class"));
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>
